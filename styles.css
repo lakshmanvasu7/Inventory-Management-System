@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    font-family: 'Arial', sans-serif;
+}
+
+h2, h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #dd2476, #ff512f);
+}
+
+.table-dark th, .table-dark td {
+    color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
